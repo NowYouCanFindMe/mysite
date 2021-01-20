@@ -1,5 +1,21 @@
+/* font styles */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Duru+Sans&display=swap');
+
+/* https://cssgradient.io/gradient-backgrounds/ */
+.container {
+  height: 100%;
+  margin-bottom: 0;
+}
+
 .App {
   text-align: center;
+  background-color: #0093E9;
+  margin-bottom: 0;
+  
+
 }
 
 .App-logo {
