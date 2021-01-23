@@ -12,8 +12,7 @@
 }
 
 .github {
-
-  width: 35px; 
+  width: 40px; 
   height: 35px;
   padding-bottom: 5px;
   margin: 0;
@@ -55,6 +54,12 @@
 .topnav a.active {
   color: #070e25;
   font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 900;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  vertical-align: middle;
   /* opacity: 1; */
 }
 

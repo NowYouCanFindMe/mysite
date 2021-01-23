@@ -5,7 +5,7 @@ import NavBar from './components/navbar.js';
 import Footer from './components/footer.js';
 // Pages
 import Home from './pages/Home.js';
-import Contact from './pages/Contact.js';
+
 
 function App() {
   return (
@@ -14,12 +14,8 @@ function App() {
       <div class='container'>
         
           <Router>
-            <Route exact path='/' component ={Home} />
-      
-            <Route path='/contact' component = {Contact} />
-    
-            
-        </Router>
+            <Route exact path='/' component ={Home} />            
+          </Router>
 
       </div>
       <Footer />

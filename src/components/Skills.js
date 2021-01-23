@@ -32,7 +32,6 @@ class Display extends Skills {
 
     changeBackground= (e) => {
         e.target.style.color = 'black';
- 
     }
 
     defaultBackground = (e) => {
