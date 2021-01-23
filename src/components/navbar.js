@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import SpinningLogo from './SpinningLogo.js';
 import github from '../assets/images/github_icon.png'
 
 // styling

@@ -24,6 +24,7 @@
   padding: 1rem;
   font-size: 20px;
   overflow-y: hidden;
+  cursor: grab;
   }
 
   /* On mouse-over, add a deeper shadow */
@@ -48,6 +49,12 @@ ul {
   color: white;
 }
 
+li {
+  font-size: 15px;
+}
+li:hover {
+  font-size: 20px;
+}
 
   
 
