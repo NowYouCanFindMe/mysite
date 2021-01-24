@@ -22,8 +22,6 @@ src
 ## Pages
 `Home.js`
 
-`Contact.js`
-
 ## Available Scripts
 
 In the project directory, you can run:
