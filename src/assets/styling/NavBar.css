@@ -4,7 +4,7 @@
   /* Full height */
   height: 100%; 
   min-height: 600px;
-
+  min-width: 1500px;
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
