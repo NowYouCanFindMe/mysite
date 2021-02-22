@@ -40,31 +40,29 @@ export default class Home extends Component {
                     It is a rotational program, in which every 6 months you get new oppotunities to work in different
                     business groups. So far, i have been trained in EIT, worked as a Remote Service Engineer,
                     Motion Embedded Software Engineer, Hardware Firmware Test Engineer, currently IT Software Engineering.
-
                   </p>
 
                   <p class='description'>
                     I received my B.S. in Computer Engineering from North Carolina A&T in 2019. I live in Ohio with my dog Sassy.
                   </p>
                   <img class= 'image_2' src = { sassy } alt='Sun rise' />
-                    {/* Avatar */}
-
-
-                    {/* About */}
-
                   </Row>
                 </div>
                 </Col>
             </Row>
               
-             
-          {/* Skills SubModule  */}
-          <div class='container-md'>
-              <h1> <span class='underline-letter'>S</span><span class='underline'>kills</span></h1>
-              <hr class ='line' />
-              <Skills />
-              <h1>⇣</h1>
-          </div>
+          <Row>
+
+            <Col lg= {12} md={12} sm={12}>
+            {/* Skills SubModule  */}
+            <div class='container-md'>
+                <h1> <span class='underline-letter'>S</span><span class='underline'>kills</span></h1>
+                <hr class ='line' />
+                <Skills />
+                <h1>⇣</h1>
+            </div>
+            </Col>
+          </Row>
         </div>
         )
     }

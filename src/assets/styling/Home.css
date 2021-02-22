@@ -1,7 +1,6 @@
 @media all and (min-width: 600px) {
     /* Alternative narrow styles */ 
     .content {
-    
         margin-left: 10%;
         margin-right: 10%;
         margin-top: 2%;
@@ -61,10 +60,6 @@
         height: 950px;
         background-repeat: no-repeat; 
         margin: 2rem;
-        outline-style: solid;
-        outline-width: 0.1px;
-        outline-color: #b2bec3;
-        box-shadow: 0.2px 0.2px 25px #b2bec3;
     }
 
     /* Content on the right */
@@ -73,19 +68,15 @@
         opacity: 0.9;
         height: 950px;
         min-width: 600px;
+        max-width: 908px;
         overflow: hidden;
         margin: 2rem;
-        
-      
         box-shadow: 0.2px 0.2px 25px #b2bec3;
-
     }
 
     .content-right:hover {
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-        background-color: #ecf0f1;
-      
-       
+        background-color: #ecf0f1;   
     }
 
     .image_2 {
@@ -97,17 +88,18 @@
         margin-bottom: 2rem;
         border-radius: 50%;
         box-shadow: 0.2px 0.2px 25px #b2bec3;
-
     }
 
     /* Content at the bottom */
     .container-md {
         min-height: 300px;
         width: auto;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        text-align: center;
         color: black;
         box-shadow: 0.5px 0.5px 15px #95a5a6;
-        padding-left: 1rem;
-        padding-right: 1rem;
+
         margin-bottom: 10rem;
         border-radius: 2px;
     }
